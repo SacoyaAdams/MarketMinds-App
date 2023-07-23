@@ -5,12 +5,12 @@
     display: flex; /* Use flexbox layout */
     justify-content: space-between; /* Horizontally spread items */
     align-items: center; /* Align items vertically in the center */
-    padding: 10px; /* Add some padding for spacing */
-    background-color: black; /* Optional: Set background color */
+    padding: 3.5px; /* Add some padding for spacing */
+    background-color: rgb(71, 65, 65); /* Optional: Set background color */
   }
   
   .logo {
-    font-size: 40px; 
+    font-size: 35px; 
     margin-left: 1rem;
     color: limegreen;
     font-weight: bolder;
@@ -34,7 +34,6 @@
     
   }
 
-  
   /* Optional: Customize link styles */
   a {
     text-decoration: none;

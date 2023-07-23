@@ -1,4 +1,5 @@
 import React from 'react';
+import './carousel.css';
 
 const Carousel = () => {
   return (
@@ -10,21 +11,21 @@ const Carousel = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="https://img.money.com/2022/11/News-Why-Keep-Investing-Even-Balance-Shrinking.jpg?crop=0px%2C146px%2C2880px%2C1620px&quality=60&w=800" className="d-block w-100" alt="..."/>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUN1xQfvjh-sWV6lItj88u20YXx8mSzM0Wag&usqp=CAU" alt="..." className="carousel-image" />
           <div className="carousel-caption d-none d-md-block">
-            <h5>EXPLORE THE MARKETS </h5>
+            <h5>EXPLORE THE MARKETS</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
         <div className="carousel-item">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwRIT58rIKsev_CmXHMhC-Quy2pCdIV8QcTg&usqp=CAU" className="d-block w-100" alt="..."/>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_se1P1kmxVRm_LwJTHYpvxmUfc_8gwgsSYQ&usqp=CAU" className="d-block w-100 carousel-image" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             <h5>CREATE YOUR BLOG</h5>
             <p>Some representative placeholder content for the second slide.</p>
           </div>
         </div>
         <div className="carousel-item">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYTVW9wrjbIHj283Fnh4zNvdF1WwklxSmapg&usqp=CAU" className="d-block w-100" alt="..."/>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYTVW9wrjbIHj283Fnh4zNvdF1WwklxSmapg&usqp=CAU" className="d-block w-100 carousel-image" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             <h5>LEARN HOW TO BUDGET</h5>
             <p>Some representative placeholder content for the third slide.</p>
