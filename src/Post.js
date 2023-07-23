@@ -1,14 +1,20 @@
-import React, { useRef } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Post() {
-  const ref = useRef(null);
-
+const Navbar = () => {
   return (
     <div>
-      <h1>This is a post</h1>
-      <p>The ref is: {ref.current}</p>
+      <div className='logo'>
+      </div>
+      <nav className='item'>
+        <ul className='ul'>
+          <li>
+            <Link to='/'>Home</Link>
+          </li>
+        </ul>
+      </nav>
     </div>
   );
 }
 
-export default Post;
+export default Navbar;

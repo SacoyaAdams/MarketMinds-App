@@ -1,0 +1,48 @@
+/* Navbar.css or App.css */
+
+.navbar-container {
+    width: 100%;
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Horizontally spread items */
+    align-items: center; /* Align items vertically in the center */
+    padding: 10px; /* Add some padding for spacing */
+    background-color: black; /* Optional: Set background color */
+  }
+  
+  .logo {
+    font-size: 40px; 
+    margin-left: 1rem;
+    color: limegreen;
+    font-weight: bolder;
+
+  }
+  
+  .item {
+    margin-left: 20px; /* Optional: Add some margin between logo and items */
+  }
+  
+  ul {
+    list-style: none; /* Remove bullet points from the list */
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    
+  }
+  
+  li {
+    margin-right: 70px; 
+    
+  }
+
+  
+  /* Optional: Customize link styles */
+  a {
+    text-decoration: none;
+    color: limegreen;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #555;
+  }
+  
