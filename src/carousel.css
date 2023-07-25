@@ -1,6 +1,21 @@
+/* carousel.css */
+
 .carousel-image {
     width: 100%;
     height: 400px; /* Set a fixed height for all carousel images */
     object-fit: cover; /* Make sure the images cover the entire container */
+  }
+  
+  /* Target the <h5> (h5 is used instead of h2) and <p> elements inside the carousel captions */
+  .carousel-caption h5 {
+    margin-left: 1rem;
+    color: black;
+    font-weight: bold;
+    font-size: 25;
+  }
+  
+  .carousel-caption p {
+    color: black;
+    font-weight: bold;
   }
   

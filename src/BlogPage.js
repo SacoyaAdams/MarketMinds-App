@@ -1,12 +1,11 @@
-// Home.js
 import React from 'react';
 
-function Blog() {
+function BlogPage() {
   return (
     <div>
-      <h1>Welcome to the Blog Page</h1>
+      <h1>Create Your Blog </h1>
     </div>
   );
 }
 
-export default Blog;
+export default BlogPage;

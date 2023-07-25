@@ -6,14 +6,15 @@
     justify-content: space-between; /* Horizontally spread items */
     align-items: center; /* Align items vertically in the center */
     padding: 3.5px; /* Add some padding for spacing */
-    background-color: rgb(71, 65, 65); /* Optional: Set background color */
+    background-color: #255e45; /* Optional: Set background color */
   }
   
   .logo {
     font-size: 35px; 
     margin-left: 1rem;
-    color: limegreen;
+    color: rgb(205, 195, 50);
     font-weight: bolder;
+    font-style: oblique;
 
   }
   
@@ -37,7 +38,7 @@
   /* Optional: Customize link styles */
   a {
     text-decoration: none;
-    color: limegreen;
+    color: rgb(205, 195, 50);
     font-weight: bold;
   }
   
