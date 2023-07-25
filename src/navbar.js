@@ -1,23 +1,24 @@
 import React from "react";
 import "./navbar.css";
-//import DDImage from "./DDLogo.png";
+import MMImage from "./MMLogo.png";
 
 import { Link } from "react-router-dom";
 
 export const NavBar = () => {
   return (
     <div className="navbar-container">
-      <div className="logo">
-        <img src="/marketmind logo.png"/>
-        MarketMind$
-      </div>
+      <button className="logo">
+        <Link to="/">
+          <img src={MMImage} alt="Logo" /> {/* Use MMImage with a capital "I" */}
+        </Link>
+      </button>
       <nav className="item">
         <ul className="ul">
           <li>
             <Link to="/">Markets</Link>
           </li>
           <li>
-            <Link to="/BlogPage">Blogs</Link>
+            <Link to="/BlogPage">Blogs</Link> {/* Make sure the path matches the correct URL */}
           </li>
           <li>
             <Link to="/watchlist">Watchlist</Link>
@@ -30,7 +31,6 @@ export const NavBar = () => {
     </div>
   );
 };
-
 
 //       <div className="navButtons">
 //         <button className="navButton">
