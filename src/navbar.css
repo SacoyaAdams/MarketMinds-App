@@ -1,21 +1,22 @@
-/* Navbar.css or App.css */
-
 .navbar-container {
     width: 100%;
-    display: flex; /* Use flexbox layout */
+    display: flex; 
     justify-content: space-between; /* Horizontally spread items */
     align-items: center; /* Align items vertically in the center */
-    padding: 3.5px; /* Add some padding for spacing */
-    background-color: #255e45; /* Optional: Set background color */
+    padding: 1px; 
+    background-color: rgb(101, 156, 98); /* Optional: Set background color */
   }
   
   .logo {
-    font-size: 35px; 
-    margin-left: 1rem;
+    font-size: 32px;
+    font-family: "Arial", sans-serif;
     color: rgb(205, 195, 50);
-    font-weight: bolder;
-    font-style: oblique;
-
+    font-weight: bold;
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Add letter spacing */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add a box-shadow effect */
+    padding: 8px 12px; /* Add padding to create some space around the logo */
+    background-color: white; /* Optional: Set a background color */
   }
   
   .item {
@@ -40,6 +41,7 @@
     text-decoration: none;
     color: rgb(205, 195, 50);
     font-weight: bold;
+    
   }
   
   a:hover {

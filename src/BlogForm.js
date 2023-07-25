@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import './BlogPage.css';
 
-const BlogForm = () => {
+const BlogForm = ({ onFormSubmit }) => {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
 
@@ -14,9 +15,9 @@ const BlogForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Here you can save the blog post data to the database using an API call or other methods.
-    console.log('Title:', title);
-    console.log('Content:', content);
+    // Call the onFormSubmit function from the parent component with the title and content as arguments.
+    onFormSubmit(title, content);
+
     // Reset the form after submission
     setTitle('');
     setContent('');
@@ -43,7 +44,7 @@ const BlogForm = () => {
           required
         />
       </div>
-      <button type="submit">Submit</button>
+      <button type="submit">Publish</button>
     </form>
   );
 };
